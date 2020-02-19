@@ -7,15 +7,12 @@ public class Emfremeiro extends Funcionario{
     private String coren;
     
     
-    public void setsenha (String coren){
+    public void setcoren (String coren){
     this.coren=  coren;   
    }
-  public String getsenha(String coren){
+  public String getcoren(){
     return coren ;
         
 }
-    @Override
-  public String toString() {
-    return "Coren: "+coren+"\n";
-  }
+  
 }
